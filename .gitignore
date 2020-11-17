@@ -5,3 +5,4 @@ coverage.lcov
 .python-version
 bounties_api/cover
 .DS_STORE
+.env
