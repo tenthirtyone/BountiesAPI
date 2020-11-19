@@ -122,51 +122,7 @@ services:
   #   depends_on:
   #     - sqs
   #     - redis
-  contract_subscriber_v1:
-    build:
-      context: ./contract_subscriber
-    restart: always
-    env_file:
-      - .env
-    environment:
-      contract_version: v1
-    command: npm start
-    volumes:
-      - ./contract_subscriber:/usr/src/app
-      - /usr/src/app/node_modules
-    depends_on:
-      - sqs
-      - redis
-  contract_subscriber_v2:
-    build:
-      context: ./contract_subscriber
-    restart: always
-    env_file:
-      - .env
-    environment:
-      contract_version: v2
-    command: npm start
-    volumes:
-      - ./contract_subscriber:/usr/src/app
-      - /usr/src/app/node_modules
-    depends_on:
-      - sqs
-      - redis
-  contract_subscriber_v2-1:
-    build:
-      context: ./contract_subscriber
-    restart: always
-    env_file:
-      - .env
-    environment:
-      contract_version: v2.1
-    command: npm start
-    volumes:
-      - ./contract_subscriber:/usr/src/app
-      - /usr/src/app/node_modules
-    depends_on:
-      - sqs
-      - redis
+  
   contract_subscriber_v2-2:
     build:
       context: ./contract_subscriber

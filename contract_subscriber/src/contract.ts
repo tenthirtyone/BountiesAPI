@@ -4,7 +4,7 @@ const contract: { version: { [key: string]: any } } = {
       mainNet: "0x2af47a65da8CD66729b4209C22017d6A5C2d2400",
       rinkeby: "0xf209d2b723b6417cbf04c07e733bee776105a073",
       consensysrinkeby: "0x12708d61650c2462f2e10276e0e65239d9b0df4e",
-      rinkebystaging: "0xdd1636b88e9071507e859e61991ed4be6647f420",
+      rinkebystaging: "0x315e4ae2f739d11224cea2f5ba0f2ea62ea77dcd",
       interfaces: {
         StandardBounties: [
           {
@@ -570,8 +570,8 @@ const contract: { version: { [key: string]: any } } = {
     },
     v2: {
       mainNet: "0xE7F69EA2a79521136eE0bf3c50f6B5F1Ea0AB0cd",
-      rinkebystaging: "0xa78c680ceaa0de08ee58a28c82193fcfae22379c",
-      rinkeby: "0xa78c680ceaa0de08ee58a28c82193fcfae22379c",
+      rinkebystaging: "0x315e4ae2f739d11224cea2f5ba0f2ea62ea77dcd",
+      rinkeby: "0x315e4ae2f739d11224cea2f5ba0f2ea62ea77dcd",
       interfaces: {
         StandardBounties: [
           {
@@ -1299,8 +1299,8 @@ const contract: { version: { [key: string]: any } } = {
     },
     "v2.1": {
       mainNet: "0x43ee232734097b07803ea605b49c6ee6bf10f8cc",
-      rinkebystaging: "0x38f1886081759f7d352c28984908d04e8d2205a6",
-      rinkeby: "0x38f1886081759f7d352c28984908d04e8d2205a6",
+      rinkebystaging: "0x315e4ae2f739d11224cea2f5ba0f2ea62ea77dcd",
+      rinkeby: "0x315e4ae2f739d11224cea2f5ba0f2ea62ea77dcd",
       interfaces: {
         StandardBounties: [
           {
@@ -2028,8 +2028,8 @@ const contract: { version: { [key: string]: any } } = {
     },
     "v2.2": {
       mainNet: "0x6e77f91ba0ae5278763ec3f044a1f0e5f85fac0a",
-      rinkebystaging: "0x9142dd986fe36952c1f8f5d68b814217dee45186",
-      rinkeby: "0x9142dd986fe36952c1f8f5d68b814217dee45186",
+      rinkebystaging: "0x315e4ae2f739d11224cea2f5ba0f2ea62ea77dcd",
+      rinkeby: "0x315e4ae2f739d11224cea2f5ba0f2ea62ea77dcd",
       interfaces: {
         StandardBounties: [
           {
@@ -2757,8 +2757,8 @@ const contract: { version: { [key: string]: any } } = {
     },
     "v2.3": {
       mainNet: "0xa7135d0a62939501b5304a04bf00d1a9a22f6623",
-      rinkebystaging: "0x1ca6b906917167366324aed6c6a708131136bea9",
-      rinkeby: "0x1ca6b906917167366324aed6c6a708131136bea9",
+      rinkebystaging: "0x315e4ae2f739d11224cea2f5ba0f2ea62ea77dcd",
+      rinkeby: "0x315e4ae2f739d11224cea2f5ba0f2ea62ea77dcd",
       interfaces: {
         StandardBounties: [
           {
@@ -3486,8 +3486,8 @@ const contract: { version: { [key: string]: any } } = {
     },
     "v2.4": {
       mainNet: "0x51598ae36102010feca5322098b22dd5b773428b",
-      rinkebystaging: "0x6ac6baf770b3ffe2ddb3c5797e47c17cebef2ec4",
-      rinkeby: "0x6ac6baf770b3ffe2ddb3c5797e47c17cebef2ec4",
+      rinkebystaging: "0x315e4ae2f739d11224cea2f5ba0f2ea62ea77dcd",
+      rinkeby: "0x315e4ae2f739d11224cea2f5ba0f2ea62ea77dcd",
       interfaces: {
         StandardBounties: [
           {
