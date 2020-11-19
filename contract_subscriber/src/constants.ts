@@ -57,7 +57,7 @@ const networks: { [key: string]: string } = {
   localhost: "localhost:8545"
 };
 
-const ethNetwork = process.env["eth_network"] || "mainNet";
+const ethNetwork = process.env["eth_network"] || "rinkeby";
 const contractVersion = process.env["contract_version"] || "v1";
 
 const ETH_NETWORK: string = ethNetwork;
